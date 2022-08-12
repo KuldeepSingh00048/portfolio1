@@ -1,0 +1,90 @@
+/* .navbar{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    border: 2px solid red;
+} */
+
+.navbars::before{
+    position: absolute;
+    content: " ";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+.logo{
+    margin: 23px 54px;
+}
+.logo button{
+    margin: 0px 6px ;
+    border: 2px solid  black;
+    background-color: rgb(6, 238, 33);
+    border-radius: 20px;
+    padding: 2px;
+    height: 40%;
+    width: 100%;
+    font-size: 21px;
+    color: rgb(6, 238, 33);
+    border: 1px solid   rgb(6, 238, 33);
+    text-align: right;
+    /* opacity: 0.7; */
+}
+.logo button:hover{
+    
+    border: 1px solid  black;
+    background-color: black;
+    border-radius: 20px;
+    color:  rgb(6, 238, 33);
+    box-shadow:  1px 3px 40px -4px rgb(6, 238, 33);
+    /* float: right; */
+    /* font-size: 22px;
+    margin: 15px;*/
+    padding: 3px;
+}
+
+
+
+.logos{
+    margin: 2px 34px;
+}
+.logos img{
+    /* box-shadow:115px 220px 122px 85px  rgb(50, 5, 73); */
+    height: 59px;
+    margin: 3px 6px;
+}
+ .navlist{
+    width: 50%;
+}
+.navbars .navlist li{
+    list-style: none;
+    /* border: 2px solid black; */
+    box-shadow: 6px 6px 8px 0px rgb(50, 5, 73);
+    border-radius: 20px 10px;
+    padding: 2px 2px;
+    margin: 0px 5px;
+}
+.navbars .navlist li a{
+    /* display: block; */
+    text-decoration: none;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    color: rgb(6, 238,33);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 18px 0px 18px;
+    opacity: 0.8;
+    
+    /* color: rgb(217, 70, 7); */
+    /* border-radius: 28px;     */
+    /* border-bottom: 4px solid  rgb(217, 50, 7); */
+}
+.navbars ul li a:hover{
+        /* background-color: rgb(241, 165, 90); */
+        opacity: 1;
+        border-bottom: 4px solid   rgb(6, 238, 33);
+        border-radius: 28px;
+        padding: 2px;
+        color:  rgb(6, 238, 33);
+        /* color: black; */
+    
+}
