@@ -2,7 +2,7 @@ import React from 'react'
 // import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/home';
-// import About from './components/about';
+import About from './components/about';
 import Qualification from './components/qualification';
 import Project from './components/project';
 import Intern from './components/intern';
