@@ -29,7 +29,7 @@ const Project = () => {
       <div className='pfeild'>
         <h1> Python Projects(ML and AI)</h1>
         <div className='p'>
-          <a className='project' href='#'><img src={robot} /> <div><h3> Robotic Hand</h3></div><div className='div'>
+          <a className='project' href='https://kd-robo.netlify.app/'><img src={robot} /> <div><h3> Robotic Hand</h3></div><div className='div'>
           This is the Project we made in college  its a  <br/>
          dummy hand which copying your hand movement<br/>
           using ML & Deep Learning will surely blow your mind</div></a>
