@@ -1,6 +1,6 @@
 import React from 'react'
-import saip from "../images/saip.jpg";
-import intern from "../images/intern.jpg";
+import saip from "../images/intern/saip.jpg";
+import intern from "../images/intern/intern.jpg";
 
 const Intern = () => {
   return (

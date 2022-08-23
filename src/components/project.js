@@ -1,10 +1,10 @@
 import React from 'react'
-import quiz from '../images/quiz.png'
-import converter from '../images/converter.jpg'
-import vlog from '../images/vlog.jpg'
-import robot from '../images/robot.jpg'
-import face from '../images/face.png'
-import pluto from '../images/pluto.png'
+import quiz from '../images/project/quiz.png'
+import converter from '../images/project/converter.jpg'
+import vlog from '../images/project/vlog.jpg'
+import robot from '../images/project/robot.jpg'
+import face from '../images/project/face.png'
+import pluto from '../images/project/pluto.png'
 
 const Project = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import batchelor from "../images/batchelors.png"
-import intermediate from "../images/intermediate.png"
-import matriculation from "../images/matriculation.jpg"
+import batchelor from "../images/qualification/batchelors.png"
+import intermediate from "../images/qualification/intermediate.png"
+import matriculation from "../images/qualification/matriculation.jpg"
 
 const Qualification = () => {
   return (

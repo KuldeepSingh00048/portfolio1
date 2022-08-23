@@ -1,9 +1,10 @@
 import React from 'react'
-import pic from '../images/instagram.jpg'
-import linkedin from "../images/linkedin.png";
-import instagram from "../images/instagram.jpg";
-import quora from "../images/quora.png";
-import twitter from "../images/twitter2.jpg";
+import pic from "../images/social-Media/insta.png";
+import linkedin from "../images/social-Media/linkedin.png";
+import github from "../images/social-Media/github.png";
+import twitter from "../images/social-Media/tweeter.png";
+import instagram from "../images/social-Media/insta.png";
+import quora from "../images/social-Media/quora.png";
 
 const About = () => {
   return (
@@ -14,9 +15,10 @@ const About = () => {
           <img src={pic}></img>
           <ul>
             <li className='imageli'><a href='#'><img src={linkedin}/><a className='textli' href='#'> linkedin</a></a></li>
-            <li className='imageli'><a href='#'><img src={instagram}/><a className='textli' href='#'>instagram</a></a></li>
-            <li className='imageli'><a href='#'><img src={quora} /><a className='textli' href='#'>quora</a></a></li>
+            <li className='imageli'><a href='#'><img src={github}/><a className='textli' href='#'> linkedin</a></a></li>
             <li className='imageli'><a href='#'><img src={twitter}/><a className='textli' href='#'>twitter</a></a></li>
+            <li className='imageli'><a href='#'><img src={quora} /><a className='textli' href='#'>quora</a></a></li>
+            <li className='imageli'><a href='#'><img src={instagram}/><a className='textli' href='#'>instagram</a></a></li>
           </ul>
         </div>
         <div className='content'> Hello, I am kuldeep Singh
