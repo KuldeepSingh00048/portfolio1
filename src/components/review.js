@@ -1,5 +1,5 @@
 import React from 'react'
-import linkedin from '../images/linkedin.png'
+import linkedin from '../images/social-Media/linkedin.png'
 const Review = () => {
   return (
     <div className='rmiddle'>
