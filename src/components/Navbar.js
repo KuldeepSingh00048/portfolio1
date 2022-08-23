@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom';
 import logo from "../images/logo33.jpg";
 const Navbar = () => {
   const [current,update] = useState(false);
