@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {useNavigate} from 'react-router-dom'
 import axios from 'axios'
-import linkedin from '../images/social-Media/linkedin.png'
+import reviewpic from './reviewpic.gif'
 
 
 const Review = () => {
@@ -34,7 +34,7 @@ const Review = () => {
   return (
     <div className='rmiddle'>
       <div className='animate'>
-        <img src={linkedin} al='animation'></img>
+        <img src={reviewpic}></img>
       </div>
       <form className='form'>
       <div className='feedback'>
