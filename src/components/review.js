@@ -1,6 +1,36 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {useNavigate} from 'react-router-dom'
+import axios from 'axios'
 import linkedin from '../images/social-Media/linkedin.png'
+
+
 const Review = () => {
+
+  const navigate = useNavigate();
+  const[user,setUser] = useState({
+    name:"",
+    email:"",
+    feedback:""
+  })
+  const handleChange = e =>{
+    const{name,value} = e.target
+    setUser({
+      ...user,
+      [name]:value
+    })
+  }
+  const review =()=>{
+    const {name,email,feedback} = user
+    if(name && email &&feedback){
+      alert("posted")
+      axios.post("https://kd-profile-server.herokuapp.com/review", user)
+      .then(res => alert(res.data.message))
+      navigate('/')
+    }
+    else{
+      alert("invalid")
+    }
+  }
   return (
     <div className='rmiddle'>
       <div className='animate'>
@@ -8,10 +38,19 @@ const Review = () => {
       </div>
       <form className='form'>
       <div className='feedback'>
-      <input autocomplete="off" id="search" placeholder="Enter your Name" />
-      <input autocomplete="off" id="search" placeholder="Enter your E-Mail" />
-      <textarea className='content' autocomplete="off" id="search" placeholder="Plzz Write Your Feedback " />
-      <a href='#'><input type='submit' className='button' /></a>
+      <input autocomplete="off" id="search" placeholder="Enter your Name"  name='name'
+      value={user.name}
+      onChange={handleChange}
+      />
+      <input autocomplete="off" id="search" placeholder="Enter your E-Mail" name='email'
+      value={user.email}
+      onChange={handleChange}
+      />
+      <textarea className='content' autocomplete="off" id="search" placeholder="Plzz Write Your Feedback " name='feedback'
+      value={user.feedback}
+      onChange={handleChange}
+      />
+      <a href='#'><input type='submit' className='button' onClick={review}/></a>
       < input type='reset' className='button' />
       </div>
       </form>

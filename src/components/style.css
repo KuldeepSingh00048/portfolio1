@@ -44,7 +44,7 @@
     list-style: none;
     /* padding: 22px 15px; */
     /* margin-left: 5px; */
-    box-shadow: 6px 6px 8px 0px rgb(50, 5, 73);
+    /* box-shadow: 6px 6px 8px 0px rgb(50, 5, 73); */
     border-radius: 20px;
     padding: 2px 2px;
     margin: 0px 5px;
@@ -89,7 +89,7 @@
 .rightnav button:hover,.rightnav-res button:hover{
     color:  rgb(6, 238, 33);
     border: 2px solid   rgb(6, 238, 33);
-    box-shadow:  1px 3px 40px -4px rgb(6, 238, 33);
+    box-shadow:  1px 3px 10px -4px rgb(0, 0, 0);
     padding: 3px;
     background-color: black;
 
