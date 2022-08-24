@@ -666,19 +666,18 @@ background-color:transparent;
 .line{
     width: 34px;
     height: 4px;
-    margin: 3px 5px;
-    background-color: rgb(3,69,11);
+    border: 1px solid rgb(3,69,11);
 }
 @media only screen and (max-width: 1140px){
     .navbar{
         flex-direction: column;
         align-items: center;
-        /* height: 80px; */
         /* height: auto; */
     }
     .nav-h{
         flex-direction: column;
         align-items: center;
+        height: 100vh;
         /* height: auto; */
     }
     .navlist{
