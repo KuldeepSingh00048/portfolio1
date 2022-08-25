@@ -12,10 +12,15 @@ const Project = () => {
       <div className='pfeild'>
         <h1> Web development Projects</h1>
         <div className='p'>
-          <a className='project' href='#'><img src={quiz} /> <div><h3> The Quiz</h3></div> <div className='div'>
+          <a className='project' href='#'>
+          <img src={quiz} /> 
+          <div><h3> The Quiz</h3></div> 
+          <div className='div'>
           This is converter site having <br/>
           several units which convert the<br/>
-           one unit to another</div></a>
+          one unit to another
+          </div>
+          </a>
           <a className='project' href='#'><img src={converter} /> <div><h3> The Converter</h3></div><div className='div'>
           This is aptitude quiz containing <br/>
           several questions which may surprise<br/>
