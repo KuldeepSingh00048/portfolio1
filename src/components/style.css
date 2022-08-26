@@ -2,7 +2,8 @@
     margin: 0px;
     padding: 0px;
     font-family: Tahoma;
-    background-image: url('back2.png'); 
+    /* background-image: url('back2.png');  */
+    background-color:#AFADA9;
 }
 
 .background{
@@ -15,7 +16,7 @@
     display: flex;
     position: sticky;
     top: 0px;
-    background-color:white ;
+    /* background-color:white ; */
     /* align-items: center; */
     /* border: 2px solid rgb(117, 243, 75); */
     border-bottom: 3px solid black;
@@ -59,7 +60,7 @@
 .navlist li a,.navlist-res li a{
     text-decoration: none;
     
-    color: rgb(3, 28, 6);
+    color: rgb(3, 48, 9);
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-size: 20px;
     font-weight: bold;
@@ -120,7 +121,7 @@
 
 .hblock{
     /* border: 2px solid rgb(252, 43, 43); */
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* box-shadow: 0px 0px 420px 80px  rgb(50, 5, 73); */
     text-align: left ;
     max-width: 80%; 
@@ -132,11 +133,23 @@
     /* opacity: 0.8; */
     margin: 10px;
     padding: 10px 10px;
+    animation-name: home;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes home{
+    from{
+        font-size: 0px;
+    }
+    to{
+        font-size: 30px;
+
+    }
 }
 .hblock:hover{
     font-size: 33px;
     margin: 0px 50px ;
-    color: rgb(2, 21, 5);
+    color: rgb(7, 57, 15);
 }
 .quote{
     padding: 20px 10px 10px 0px;
@@ -177,8 +190,8 @@
     /* margin-bottom: ; */
     /* border: 2px solid red; */
     margin-left: -644px;
-    color: rgb(3, 43, 8);
-    text-shadow: 3px 3px 2px black;
+    color: rgb(3, 69, 11);
+    text-shadow: 2px 2px 2px black;
     
 }
 .middle .ablock{
@@ -201,9 +214,10 @@
 
 }
 .middle .ablock .pic .userpic{
-    height: 250px;
+    height: 280px;
     width: 280px;
     border-radius: 30px;
+    box-shadow: 3px 2px 20px black;
 }
 .middle .ablock ul{
     display: flex;
@@ -237,7 +251,7 @@
     box-shadow: 0px 0px 20px -5px rgb(3, 69, 11);
     border-radius: 30px;
     border: 2px solid rgb(2, 21, 5);
-    color: rgb(2, 21, 5);
+    color: rgb(3, 69, 11);
     margin: 2% 5%;
     width: 500px;
     padding: 20px;
@@ -264,7 +278,7 @@
     /* border: 2px solid yellow; */
     box-shadow: 0px 0px 20px -5px black;
     border-radius: 22px;
-    background-color: rgb(170, 188,174);
+    /* background-color: rgb(170, 188,174); */
     padding: 10px;
     margin: 20px;
     text-align: center;
@@ -403,6 +417,10 @@
     color: rgb(3, 59, 12);
 
 }
+.pmiddle .pfeild .p .project .div h5{
+    color:rgb(242, 242, 7);
+
+}
 
 
 .imiddle{
@@ -480,7 +498,7 @@
     box-shadow: 2px 2px 20px black;
     border: 2px solid rgb(3, 69, 11);
     padding: 20px;
-    margin: auto;
+    margin-right: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -543,12 +561,24 @@
     /* border: 2px solid yellowgreen; */
     padding: 0px;
     margin: auto;
-    height: 400px;
-    width: 400px;
+    font-size: 4rem;
+    font-family: Impact;
+    color: rgb(3, 44, 8);
     display: flex;
     flex-direction: column;
+    animation-name: review;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
 }
-
+@keyframes review{
+    from{
+        font-size: 4.8rem;
+    }
+    to{
+        font-size: 5rem;
+        color: rgb(5, 84, 5);
+    }
+}
 
 .cmiddle{
     /* border: 2px solid orangered; */
@@ -675,15 +705,20 @@ color:rgb(2, 21, 5);
 @media only screen and (max-width: 1140px){
     .navbar{
         flex-direction: column;
-        align-items: center;
+        align-items: center; 
         /* height: auto; */
+        /* display: none; */
     }
     .nav-h{
         flex-direction: column;
         align-items: center;
         width: 50%;
         left: 100%;
-        /* height: auto; */
+        border: none;
+        margin-bottom: 0px;
+        /* transition: all 1s ease-out; */
+        /* box-shadow: none; */
+        /* height: 200px; */
     }
     .logo img{
         width: 60px;
@@ -709,6 +744,7 @@ color:rgb(2, 21, 5);
     .rightnav-res{
         text-align: center;
         padding-left: 20px;
+        margin-bottom: 10px;
         display:block;
     }
     .burger{

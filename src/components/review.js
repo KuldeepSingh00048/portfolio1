@@ -22,7 +22,7 @@ const Review = () => {
   const review =()=>{
     const {name,email,feedback} = user
     if(name && email &&feedback){
-      alert("posted")
+      // alert("posted")
       axios.post("https://kd-profile-server.herokuapp.com/review", user)
       .then(res => alert(res.data.message))
       navigate('/')
@@ -34,7 +34,7 @@ const Review = () => {
   return (
     <div className='rmiddle'>
       <div className='animate'>
-        <img src={reviewpic}></img>
+        Please <br/>Review
       </div>
       <form className='form'>
       <div className='feedback'>

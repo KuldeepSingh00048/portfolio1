@@ -18,13 +18,13 @@ const Project = () => {
           <div className='div'>
           This is converter site having <br/>
           several units which convert the<br/>
-          one unit to another
+          one unit to another<h5>(Still on working)</h5>
           </div>
           </a>
           <a className='project' href='#'><img src={converter} /> <div><h3> The Converter</h3></div><div className='div'>
           This is aptitude quiz containing <br/>
           several questions which may surprise<br/>
-           you and blow your mind</div></a>
+           you and blow your mind <h5>(Still on working)</h5></div></a>
           <a className='project' href='https://kd-blog.netlify.app' target='_blank'><img src={blog} /> <div><h3> Blogs</h3></div><div className='div'>
           This is vlog site having <br/>
           several facts and view of actual Jharkhand which <br/>

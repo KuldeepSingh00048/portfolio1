@@ -20,7 +20,7 @@ const Contact = () => {
   const contact =()=>{
     const {name,email,Phone_number} = user
     if(name && email && Phone_number){
-      alert("posted")
+      // alert("posted")
       axios.post("https://kd-profile-server.herokuapp.com/contact", user)
       .then(res => alert(res.data.message))
       navigate('/')

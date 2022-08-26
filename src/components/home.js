@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {NavLink} from 'react-router-dom'
 const Home = () => {
   return (
     <section className='hmiddle background'>
@@ -10,7 +10,7 @@ const Home = () => {
          a ship lost in horizon"</div>     
          <div>--Dr. Christopher dayagdag</div>
       </div>
-      <button className='hbutton'><a href='/about'>Know More</a></button>
+      <button className='hbutton'><NavLink to='/about'>Know More</NavLink></button>
     
     </section>
   )
