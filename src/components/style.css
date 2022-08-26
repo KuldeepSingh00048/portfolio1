@@ -795,6 +795,8 @@ color:rgb(2, 21, 5);
         /* height: auto; */
         flex-direction: column;
     }
-
+    .rmiddle .form {
+        margin-right: 0px;
+    }
     
 }
