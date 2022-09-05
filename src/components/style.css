@@ -2,8 +2,8 @@
     margin: 0px;
     padding: 0px;
     font-family: Tahoma;
-    /* background-image: url('back2.png');  */
-    background-color:#AFADA9;
+    background-image: url('back2.png'); 
+    /* background-color:#AFADA9; */
 }
 
 .background{
@@ -418,7 +418,7 @@
 
 }
 .pmiddle .pfeild .p .project .div h5{
-    color:rgb(242, 242, 7);
+    color:rgb(255, 74, 8);
 
 }
 
