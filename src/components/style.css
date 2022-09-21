@@ -2,8 +2,8 @@
     margin: 0px;
     padding: 0px;
     font-family: Tahoma;
-    background-image: url('back2.png'); 
-    /* background-color:#AFADA9; */
+    /* background-image: url('back2.png');  */
+    background-color:#afada9;
 }
 
 .background{
@@ -19,7 +19,7 @@
     /* background-color:white ; */
     /* align-items: center; */
     /* border: 2px solid rgb(117, 243, 75); */
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(2, 64, 2);
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgb(3, 69, 11);
 }
@@ -419,8 +419,12 @@
 }
 .pmiddle .pfeild .p .project .div h5{
     color:rgb(255, 74, 8);
-
 }
+/* .pmiddle .pfeild .p .project .div h4{
+    color:rgb(243, 195, 21);
+    font-size: small;
+
+} */
 
 
 .imiddle{

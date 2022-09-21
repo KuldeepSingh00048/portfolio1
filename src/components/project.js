@@ -1,6 +1,7 @@
 import React from 'react'
 import quiz from '../images/project/quiz.png'
 import converter from '../images/project/converter.jpg'
+import movie from '../images/project/movie.jpg'
 import blog from '../images/project/vlog.jpg'
 import robot from '../images/project/robot.jpg'
 import face from '../images/project/face.png'
@@ -16,6 +17,9 @@ const Project = () => {
           <a className='project ' href='https://kd-reunion-real-state.netlify.app' target='_blank'><img src={realstate} /> <div><h3> Real State(House Rent)</h3></div><div className='div'>
             This is real State site which contain all types<br />
              of houses required by the client in low to high range</div></a>
+          <a className='project ' href='https://kd-movie-ticket-booking.netlify.app/' target='_blank'><img src={movie} /> <div><h3> Movie Ticket Booking</h3></div><div className='div'>
+            This is online dummy movie ticket booking platform which contain different movies<br />
+            that showing in different city using MERN (Sum add on require like params)</div></a>
           <a className='project' href='https://kd-blog.netlify.app' target='_blank'><img src={blog} /> <div><h3> Blogs</h3></div><div className='div'>
             This is vlog site having <br />
             several facts and view of actual Jharkhand which <br />

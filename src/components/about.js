@@ -26,7 +26,7 @@ const About = () => {
         I stumbled in making websites. It all started 
         with creating AI & ML based projects when i was 
         in 2nd year of my Batchelor's, until the day i 
-        study about javscript and discovered another 
+        study about javascript and discovered another 
         feild to express myself.
         <br/>
         <br/>
