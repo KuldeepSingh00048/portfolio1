@@ -14,7 +14,7 @@ const Project = () => {
       <div className='pfeild'>
         <h1> Web development Projects</h1>
         <div className='p'>
-          <a className='project ' href='https://kd-reunion-real-state.netlify.app' target='_blank'><img src={realstate} /> <div><h3> Real State(House Rent)</h3></div><div className='div'>
+          <a className='project ' href='https://kd-real-state.netlify.app' target='_blank'><img src={realstate} /> <div><h3> Real State(House Rent)</h3></div><div className='div'>
             This is real State site which contain all types<br />
              of houses required by the client in low to high range</div></a>
           <a className='project ' href='https://kd-movie-ticket-booking.netlify.app/' target='_blank'><img src={movie} /> <div><h3> Movie Ticket Booking</h3></div><div className='div'>
